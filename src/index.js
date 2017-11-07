@@ -89,8 +89,6 @@ class PopoverTooltip extends React.Component {
         ref={component => this._component_wrapper = component}
         style={[componentWrapperStyle]}
         onPress={this.toggle.bind(this)}
-        onLongPress={this.toggle.bind(this)}
-        delayLongPress={this.props.delayLongPress}
         activeOpacity={1.0}
       >
         <Animated.View style={[componentWrapperStyle]}>
