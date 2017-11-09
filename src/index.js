@@ -269,7 +269,7 @@ PopoverTooltip.propTypes = {
   labelContainerStyle: React.PropTypes.object,
   labelSeparatorColor: React.PropTypes.string,
   labelStyle: React.PropTypes.object,
-  setAbove: React.PropTypesbool,
+  setAbove: React.PropTypes.bool,
   animationType: PropTypes.oneOf([
     'timing',
     'spring'
