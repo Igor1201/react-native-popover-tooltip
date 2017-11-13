@@ -186,6 +186,7 @@ class App extends React.Component {
 | buttonComponent | node ||| Component that can be long pressed
 | items | `Array` | | Items to be rendered in menu. Each of item requires `label` as `string` or `function` if you want to render your own component and `onClick` as `function` to be called when you click item. |
 | componentWrapperStyle | Object | Optional | Style `Object` if you want to overwrite wrapper for your `buttonComponent`
+| componentContainerStyle | Object | Optional | Style `Object` if you want to overwrite container that is between wrapper and your `buttonComponent`
 | overlayStyle | Object | Optional | Style `Object` if you want to overwrite overlay style's.
 | onRequestClose | `function` | Optional, default `() => {}` | Modal onRequestClose required function on Android 
 | labelContainerStyle | `Object` | Optional | Style `Object` if you want to change default `TooltipMenuItem` View's style.
@@ -197,6 +198,8 @@ class App extends React.Component {
 | springConfig | `Object` | {tension: 100, friction: 7} | Configuration of spring animation. Attributes tension and friction control the behavior of the spring bumper effect.
 | opacityChangeDuration | `number` | 200 | Duration of opacity change of the overlay, during both appearance and dispearance.
 | buttonComponentExpandRatio | `number` | 1.0 | Ratio of button component expansion after tooltip poped up.
+| setAbove | `Boolean` | false | Sets the default position of the tooltip to appear above the intended target.
+| triangleOffset | `Number` | 0 | Number of pixels to offset triangle from center. Positive numbers will push right. Negative Numbers will push left.
 
 ## Methods:
 
