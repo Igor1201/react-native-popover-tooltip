@@ -276,8 +276,8 @@ PopoverTooltip.propTypes = {
   ]),
   onRequestClose: React.PropTypes.func,
   triangleOffset: React.PropTypes.oneOfType([
-    React.prototype.string,
-    React.prototype.number
+    React.PropTypes.string,
+    React.PropTypes.number
   ]),
 };
 
