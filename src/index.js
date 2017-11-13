@@ -275,7 +275,10 @@ PopoverTooltip.propTypes = {
     'spring'
   ]),
   onRequestClose: React.PropTypes.func,
-  triangleOffset: React.PropTypes.number,
+  triangleOffset: React.PropTypes.oneOfType([
+    React.prototype.string,
+    React.prototype.number
+  ]),
 };
 
 PopoverTooltip.defaultProps = {
